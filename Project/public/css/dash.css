@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    position: relative;
+    min-height: 100%;
+    height: 100%;
+}
+
+.main-header {
+    background: lightseagreen;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.button {
+    position: absolute;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: -4.8%;
+    margin-left: 75%;
+}
+.button {background-color: lightseagreen;;}
+.container {
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-bottom: 0.7em;
+}
+
+img {
+    height: 70px;
+    width: 70px;
+    float: left;
+    margin-top: 0;
+    margin-bottom: 1px;
+    padding-left: 10px;
+}
+
+.name {
+    padding: 2px 0;
+    margin: 0;
+    font-size: 2em;
+    color: white;
+    font-weight: normal;
+    text-align: center;
+}
+
+img,
+.name {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+h1 {
+    padding-top: 25px;
+    padding-bottom: 3px;
+    text-align: center;
+    font-family: Century;
+}
+
+.main-dashboard {
+    width: 52%;
+    margin: 4em auto 4em;
+    background: #d9e4ea;
+    border-radius: 5px;
+}
+
+fieldset {
+    border: #d9e4ea;
+}
+
+input[type=text] {
+    margin: 12px 0 6px;
+    padding-left: 10px;
+    width: 100%;
+    border-radius: 2px;
+    height: 45px;
+    border: #d9e4ea;
+}
+
+textarea {
+    margin: 12px 0 6px;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 100%;
+    border-radius: 2px;
+    height: 10em;
+    border: #d9e4ea;
+}
+
+.radio {
+    margin-left: 40px;
+}
+
+button {
+    background: lightseagreen;
+    color: white;
+    border-radius: 2px;
+    border: lightseagreen;
+    height: 40px;
+    width: 15%;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+
+.main-footer {
+    background: lightseagreen;
+    position: relative;
+    color: white;
+    width: 100%;
+    height: 50px;
+    clear: both;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.about,
+.contact {
+    float: left;
+    cursor: pointer;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.about {
+    margin-left: 18px;
+    margin-right: 7px;
+}
+
+.contact {
+    margin-left: 8px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+      xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/dash.css">
+    <title>Dashboard</title>
+
+    <script src="jquery-3.3.1.js"></script>
+</head>
+<body>
+        <header class="main-header">
+            <div class="container">
+                <img src="image/download.jpg">
+                <h1 class="name">CMS NEWSLETTER</h1>
+            </div>
+            <a href="/logout" class="button button2" style="font-weight: bold">Logout</a>
+        </header>
+
+        <div class="main-dashboard">
+            <fieldset>
+                <input type="text" id="mail" name="user_email" placeholder="To">
+                <br>
+                <input type="text" id="subject" name="user_subject" placeholder="Subject">
+                <br>
+                <textarea id="msg" name="user_msg"></textarea>
+                <br><br>
+                <input type="radio" name="template1" value="bd0f3113-ccc1-495e-a6d8-d3bbde3abae1" id="temp1"> Template 1</input>
+                <input type="radio" name="template2" value="521f1a00-b04c-4a23-9d95-7563128fad78" id="temp2" class="radio"> Template 2</input>
+                <input type="radio" name="template3" value="584ed45f-452a-4ec1-af04-8b7b64e9856e" id="temp3" class="radio"> Template 3</input>
+                <input type="radio" name="template4" value="dc35d2f7-e96b-4be5-aeab-c0235ae4dc86" id="temp4" class="radio"> Template 4</input>
+                <br><br>
+                <button id="mailButton">Send</button>
+            </fieldset>
+        </div>
+
+        <footer class="main-footer">
+            <p class="about"><a href="#">About</a></p>
+            <p class="contact"><a href="#">Contact Us</a></p>
+        </footer>
+
+
+    <script src="javascript/dashboard.js"></script>
+</body>
+</html>

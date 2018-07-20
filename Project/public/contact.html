@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS Template</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Style the header */
+        header {
+            background-color: gray;
+            padding: 15px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+
+        /* Create two columns/boxes that floats next to each other */
+        nav {
+            float: left;
+            width: 30%;
+            height: 300px; /* only for demonstration, should be removed */
+            background: #ccc;
+            padding: 20px;
+        }
+
+        /* Style the list inside the menu */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        article {
+            float: left;
+            padding: 20px;
+            width: 70%;
+            text-align: justify;
+            background-color: #f1f1f1;
+            height: 300px; /* only for demonstration, should be removed */
+        }
+
+        /* Clear floats after the columns */
+        section:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Style the footer */
+        footer {
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+        /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+        @media (max-width: 600px) {
+            color: white;
+        }
+
+        nav, article {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+
+
+<header>
+    <img src=url("lhttps://www.freeiconspng.com/uploads/icon-email-icon-clip-art-at-clker-com-vector-qafaq-e-mail-icon-trace--0.png")><h2>CMS NEWSLETTER</h2>
+</header>
+
+<section>
+    <nav>
+        <ul>
+
+            <li><a href="#">vishal@gmail.com</a></li>
+            <li><a href="#">lisna@gmail.com</a></li>
+            <li><a href="#">Anusha@gmail.com</a></li>
+            <li><a href="#">Shantala@gmail.com</a></li>
+            <li><a href="#">Anitha@gmail.com</a></li>
+
+
+        </ul>
+    </nav>
+
+    <article>
+        <h1>About Us</h1>
+        <p>XYZ is an easy touseemail app that saves you time and keeps your message safe.Instantly receive your messaages via push notification,read online and find any message quickly.With this app you get</p>
+
+        <ol>
+
+            <li> Less Spam-XYZ blocks spam before it hits your inbox to keep your account safe and clutter free </li>
+            <li>15GB of free storage- You won't need to delete messages to save space</li>
+        </ol>
+    </article>
+</section>
+
+<footer>
+    <img src=url("lhttps://www.freeiconspng.com/uploads/icon-email-icon-clip-art-at-clker-com-vector-qafaq-e-mail-icon-trace--0.png")>
+</footer>
+
+</body>
+</html>

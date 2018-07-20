@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="jquery-3.3.1.js"></script>
+</head>
+<body>
+        <header class="main-header">
+            <div class="container">
+                <img src="image/download.jpg">
+                <h1 class="name">CMS NEWSLETTER</h1>
+            </div>
+        </header>
+
+        <div class="form">
+            <h1>Log In</h1>
+            <br>
+
+            <fieldset>
+                <label for="editoremail">Email</label><br>
+                <input type="text" id="editoremail" name="editor_email"  autocomplete="off">
+                <br><br>
+
+                <label for="password">Password</label><br>
+                <input type="password" id="password" name="editor_pwd" autocomplete="off">
+                <br>
+            </fieldset>
+
+            <input type="submit" onclick="send()" name="submit" value="Submit"/>
+        </div>
+
+        <footer class="main-footer">
+            <p class="about"><a href="#">About</a></p>
+            <p class="contact"><a href="#">Contact Us</a></p>
+        </footer>
+    <script src="javascript/email-validation.js"></script>
+</body>
+</html>
